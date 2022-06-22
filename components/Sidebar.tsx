@@ -1,7 +1,8 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import { useRef } from "react";
-import { FaHouseUser, FaBars } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
+import { BsFillHouseDoorFill } from "react-icons/bs";
 import useSidebar from "../hooks/useSidebar";
 import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
@@ -144,7 +145,7 @@ const Sidebar = () => {
                     router.pathname === nav[1] && "text-purple-primary"
                   }`}
                 >
-                  <FaHouseUser />
+                  <BsFillHouseDoorFill />
                   {nav[0]}
                 </a>
               </Link>

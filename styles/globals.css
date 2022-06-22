@@ -19,11 +19,16 @@
 
 @layer components {
   .shadow {
-    @apply overflow-hidden relative after:absolute after:bg-gradient-to-t after:z-50 after:w-full after:h-3/4
-             after:from-white via-white after:to-white/10 after:bottom-0 after:left-0;
+    @apply overflow-hidden relative after:absolute after:bg-gradient-to-t after:z-10 after:w-full after:h-2/3
+             after:from-white after:to-white/10 after:bottom-0 after:left-0;
   }
 
   .lab-text {
-    @apply font-medium z-10 px-8 flex flex-col justify-between text-lg;
+    @apply font-medium z-10 px-8 flex flex-col justify-between text-lg text-center;
+  }
+
+  .lab-link {
+    @apply text-xl font-bold absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 hidden z-50 rounded-lg 
+                hover:text-purple-primary bg-purple-primary hover:bg-cream py-2 px-4 group-hover:block hover:shadow-md;
   }
 }
