@@ -55,7 +55,7 @@ const one = () => {
               <p className='lab-text'>
                 Hardware Key Terms
                 <a
-                  className='lab-link'
+                  className='font-bold text-xl hover:underline'
                   target='_blank'
                   href='https://docs.google.com/spreadsheets/d/1Cb4adyqJ8DdgOcvF6EpXRwyNPy4rkuRMwSjJUHdjdTg/edit?usp=drive_web&authuser=1'
                 >
@@ -78,7 +78,7 @@ const one = () => {
               <p className='lab-text h-64 w-[50vw]'>
                 Lab - Parts of a Computer
                 <a
-                  className='text-xl font-bold underline'
+                  className='text-xl font-bold hover:underline'
                   target='_blank'
                   href='https://docs.google.com/document/d/13GRUiuP2SUbq3dRWnHGHJLeqeT4Fp3E-OxrSZQkZHFw/edit?usp=drive_web&authuser=1'
                 >
@@ -152,18 +152,18 @@ const one = () => {
               <p className='lab-text'>
                 Assignment - Custom PC Purchase
                 <a
-                  className='lab-link'
+                  className='font-bold text-xl hover:underline'
                   target='_blank'
                   href='https://docs.google.com/document/d/12THJ7mOogYbsHT9UEm_QAPG9c4lGrN5HxToPjdLox2U/edit?usp=drive_web&authuser=1'
                 >
-                  Link
+                  Doc Questions
                 </a>
                 <a
-                  className='lab-link'
+                  className='font-bold text-xl hover:underline'
                   target='_blank'
                   href='https://docs.google.com/spreadsheets/d/1mTtqZ-yIR5nsxdtzPjPkDsMDsRdjgeH2ghoAXc8qQMI/edit?usp=drive_web&authuser=1'
                 >
-                  Link
+                  Spreadsheet Planning
                 </a>
               </p>
             </TextCardBorder>

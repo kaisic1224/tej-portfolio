@@ -17,10 +17,28 @@
   animation-delay: 1s;
 }
 
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #0c0717;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3f0071;
+  border-radius: 1rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #150050;
+  border-radius: 1rem;
+}
+
 @layer components {
   .shadow {
-    @apply overflow-hidden relative after:absolute after:bg-gradient-to-t after:z-10 after:w-full after:h-2/3
-             after:from-white after:to-white/10 after:bottom-0 after:left-0;
+    @apply overflow-hidden relative after:absolute after:bg-gradient-to-t after:z-10 after:w-[calc(100%_-_4rem)] after:h-2/3
+             after:from-white after:to-white/10 after:bottom-0 after:left-8;
   }
 
   .lab-text {
@@ -29,6 +47,6 @@
 
   .lab-link {
     @apply text-xl font-bold absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 hidden z-50 rounded-lg 
-                hover:text-purple-primary bg-purple-primary hover:bg-cream py-2 px-4 group-hover:block hover:shadow-md;
+                hover:text-purple-primary bg-purple-primary hover:bg-cream py-2 px-4 group-hover:block hover:drop-shadow-2xl;
   }
 }

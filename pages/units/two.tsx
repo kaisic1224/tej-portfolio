@@ -32,13 +32,14 @@ const two = () => {
             id='digital-logic-gates'
             className='grid grid-cols-2 pb-8 mt-12 gap-4 px-8'
           >
-            <p className='px-8 h-64'>
+            <p className='px-8 h-64 shadow group'>
+              <img src='/unit2-digital-logic.png' alt='' />
               <a
-                className='text-xl font-bold'
+                className='lab-link'
                 target='_blank'
                 href='https://docs.google.com/document/d/1OJCPZT-dmUyds6xRZDyIyFdMYjsLlR-Uu2owEDUeXh4/edit?usp=drive_web&authuser=1'
               >
-                Link
+                Open in tab
               </a>
             </p>
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
@@ -49,13 +50,14 @@ const two = () => {
             id='construction-of-truth-tables'
             className='grid grid-cols-2 pb-8 mt-12 gap-4 px-8'
           >
-            <p className='px-8 h-64'>
+            <p className='px-8 h-64 shadow group'>
+              <img src='/unit2-construction-tables.png' alt='' />
               <a
-                className='text-xl font-bold'
+                className='lab-link'
                 target='_blank'
                 href='https://docs.google.com/document/d/1DtV0rPj5gIGOVgmMJtwCdNje_sCxTC3SLLTnm0525YE/edit?usp=drive_web&authuser=1'
               >
-                Link
+                Open in tab
               </a>
             </p>
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
@@ -66,13 +68,14 @@ const two = () => {
             id='combining-logic-gates'
             className='grid grid-cols-2 pb-8 mt-12 gap-4 px-8'
           >
-            <p className='px-8 h-64'>
+            <p className='px-8 h-64 shadow group'>
+              <img src='/unit2-combining.png' alt='' />
               <a
-                className='text-xl font-bold'
+                className='lab-link'
                 target='_blank'
                 href='https://docs.google.com/document/d/1HxSJw7KNR0wyRk0IBelrK6GTycQxhsdtOLiwTmYGEnM/edit?usp=drive_web&authuser=1'
               >
-                Link
+                Open in tab
               </a>
             </p>
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
@@ -83,13 +86,14 @@ const two = () => {
             id='booean-and-truth-tables-from-logic-diagrams'
             className='grid grid-cols-2 pb-8 mt-12 gap-4 px-8'
           >
-            <p className='px-8 h-64'>
+            <p className='px-8 h-64 shadow group'>
+              <img src='/unit2-boolean-expressions.png' alt='' />
               <a
-                className='text-xl font-bold'
+                className='lab-link'
                 target='_blank'
                 href='https://docs.google.com/document/d/1_sDeybs3duXhIza-5ey5xdEuSwcbCAKrXYGZ7t5QqA8/edit?usp=drive_web&authuser=1'
               >
-                Link
+                Open in tab
               </a>
             </p>
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
@@ -102,13 +106,14 @@ const two = () => {
             id='logic-diagrams-from-boolean-expressions'
             className='grid grid-cols-2 pb-8 mt-12 gap-4 px-8'
           >
-            <p className='px-8 h-64'>
+            <p className='px-8 h-64 shadow group'>
+              <img src='/unit2-logic-diagrams.png' alt='' />
               <a
-                className='text-xl font-bold'
+                className='lab-link'
                 target='_blank'
                 href='https://docs.google.com/document/d/1r6UU-7QBpY2hDtuh80vt5cH2jhTvFH2wHw80CtY4kvg/edit?usp=drive_web&authuser=1'
               >
-                Link
+                Open in tab
               </a>
             </p>
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
@@ -121,13 +126,14 @@ const two = () => {
             id='wiring-the-logic-gates-and-circuits'
             className='grid grid-cols-2 pb-8 mt-12 gap-4 px-8'
           >
-            <p className='px-8 h-64'>
+            <p className='px-8 h-64 shadow group'>
+              <img src='/unit2-lab.png' alt='' />
               <a
-                className='text-xl font-bold'
+                className='lab-link'
                 target='_blank'
                 href='https://docs.google.com/document/d/1UcZfrGrbjMT_yllDiJUjMXScfWqMLnhmTA3NENx-3Fw/edit?usp=drive_web&authuser=1'
               >
-                Link
+                Open in tab
               </a>
             </p>
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>

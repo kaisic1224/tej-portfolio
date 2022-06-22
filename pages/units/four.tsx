@@ -8,7 +8,7 @@ const four = () => {
       <Head>
         <title>Unit Four | Vincent Fong</title>
       </Head>
-      <div className='min-h-screen bg-black text-cream pl-[50px]'>
+      <div className='min-h-screen bg-black text-cream pl-[50px] pb-8'>
         <section className='px-8'>
           <h1 className='text-center font-bold text-8xl uppercase flex gap-2'>
             <motion.span
@@ -29,12 +29,14 @@ const four = () => {
             </motion.span>
           </h1>
           <div id='digital-data' className='grid grid-cols-2'>
-            <p>
+            <p className='px-8 h-64 shadow group'>
+              <img className='w-full' src='/unit4-digital-data.png' alt='' />
               <a
+                className='lab-link'
                 target='_blank'
                 href='https://docs.google.com/document/d/1wZbMqE74MugfQdpzyDe4tqGxIV4O9BmUqj_oVA5kpKM/edit?usp=drive_web&authuser=1'
               >
-                Link
+                Open in tab
               </a>
             </p>
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
@@ -42,20 +44,24 @@ const four = () => {
             </TextCardBorder>
           </div>
           <div id='numbering-systems' className='grid grid-cols-2'>
-            <p>
+            <p className='px-8 h-64 shadow group'>
+              <img className='w-full' src='/unit4-binary.png' alt='' />
               <a
+                className='lab-link'
                 target='_blank'
                 href='https://docs.google.com/document/d/1Jp9HxxszAinhvKf_pv6IMC6W6LBzlsceXWYDM38Emwk/edit?usp=drive_web&authuser=1'
               >
                 Binary to Decimal
               </a>
               <a
+                className='lab-link'
                 target='_blank'
                 href='https://docs.google.com/document/d/1UjaRLjSHAU9FOYe5uQpAk8rClhMbOjoia8mm_ciIjsI/edit?usp=drive_web&authuser=1'
               >
                 Octa to Decimal
               </a>
               <a
+                className='lab-link'
                 target='_blank'
                 href='https://docs.google.com/document/d/1O9OCwBjEVESjaw6ZryVJtf8OqOa2FAjEBEk9zA9tvG0/edit?usp=drive_web&authuser=1'
               >
@@ -69,12 +75,14 @@ const four = () => {
             </TextCardBorder>
           </div>
           <div id='binary-addition' className='grid grid-cols-2'>
-            <p>
+            <p className='px-8 h-64 shadow group'>
+              <img className='w-full' src='/unit4-binary-addition.png' alt='' />
               <a
+                className='lab-link'
                 target='_blank'
                 href='https://docs.google.com/document/d/1irPEhE1Hswzyv3Lbem2qqZ-zvbsoYtx-LEsV3rqqJ8U/edit?usp=drive_web&authuser=1'
               >
-                Link
+                Open in tab
               </a>
             </p>
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
@@ -82,12 +90,14 @@ const four = () => {
             </TextCardBorder>
           </div>
           <div id='ascii-code' className='grid grid-cols-2'>
-            <p>
+            <p className='px-8 h-64 shadow group'>
+              <img className='w-full' src='/unit4-ascii-code.png' alt='' />
               <a
+                className='lab-link'
                 target='_blank'
                 href='https://docs.google.com/document/d/10sHd1TYR3_OxRvqmaEJaLSnvS1465qkfjwr-jJHRX5M/edit?usp=drive_web&authuser=1'
               >
-                Link
+                Open in tab
               </a>
             </p>
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
@@ -95,12 +105,14 @@ const four = () => {
             </TextCardBorder>
           </div>
           <div id='binary-dec-hex-octal' className='grid grid-cols-2'>
-            <p>
+            <p className='px-8 h-64 shadow group'>
+              <img className='w-full' src='/unit4-quiz.png' alt='' />
               <a
+                className='lab-link'
                 target='_blank'
                 href='https://drive.google.com/file/d/1LaLALG5u3Vr1mcrE7-_3gaoOJW0ApRfW/view?usp=drive_web&authuser=1'
               >
-                Link
+                Open in tab
               </a>
             </p>
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
