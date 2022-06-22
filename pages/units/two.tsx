@@ -43,7 +43,9 @@ const two = () => {
               </a>
             </p>
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
-              <p className='lab-text'>Lab - Digital Logic Gates</p>
+              <p className='lab-text text-4xl text-center'>
+                Lab - Digital Logic Gates
+              </p>
             </TextCardBorder>
           </div>
           <div
@@ -61,7 +63,9 @@ const two = () => {
               </a>
             </p>
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
-              <p className='lab-text'>Lab A - Construction Of Truth Tables</p>
+              <p className='lab-text text-4xl text-center'>
+                Lab A - Construction Of Truth Tables
+              </p>
             </TextCardBorder>
           </div>
           <div
@@ -79,7 +83,9 @@ const two = () => {
               </a>
             </p>
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
-              <p className='lab-text'>Lab B - Combining Logic Gates</p>
+              <p className='lab-text text-4xl text-center'>
+                Lab B - Combining Logic Gates
+              </p>
             </TextCardBorder>
           </div>
           <div
@@ -97,7 +103,7 @@ const two = () => {
               </a>
             </p>
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
-              <p className='lab-text'>
+              <p className='lab-text text-4xl text-center'>
                 Lab C - Boolean and Truth Tables from Logic Diagrams
               </p>
             </TextCardBorder>
@@ -117,7 +123,7 @@ const two = () => {
               </a>
             </p>
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
-              <p className='lab-text'>
+              <p className='lab-text text-4xl text-center'>
                 Lab - D Logic Diagrams from Boolean Expressions
               </p>
             </TextCardBorder>
@@ -137,11 +143,28 @@ const two = () => {
               </a>
             </p>
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
-              <p className='lab-text'>
+              <p className='lab-text text-4xl text-center'>
                 Lab - Wiring the Logic Gates and Circuits
               </p>
             </TextCardBorder>
           </div>
+        </section>
+        <section className='relative px-16 overflow-x-hidden'>
+          <motion.div
+            initial={{ width: 0 }}
+            whileInView={{ width: "100%" }}
+            transition={{ duration: 1, ease: "easeOut" }}
+            className='h-1 bg-white mb-6'
+          />
+          <h2 className='text-center text-5xl'>Unit Reflection</h2>
+          <p className='text-lg mt-6'>
+            I think that this unit was pretty good. It was my first time working
+            with breadboards, but it was pretty fun. I think it could've been
+            more challenging, but also more interactive. I think that it was
+            nice that we could do it at our own pace, but I think having
+            groupmates or teacher feedback would make it easier for those who
+            haven't done it before.
+          </p>
         </section>
       </div>
     </>

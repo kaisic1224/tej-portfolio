@@ -28,7 +28,7 @@ const four = () => {
               Four
             </motion.span>
           </h1>
-          <div id='digital-data' className='grid grid-cols-2'>
+          <div id='digital-data' className='grid grid-cols-2 pb-8 mt-24'>
             <p className='px-8 h-64 shadow group'>
               <img className='w-full' src='/unit4-digital-data.png' alt='' />
               <a
@@ -40,10 +40,12 @@ const four = () => {
               </a>
             </p>
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
-              <p className='font-medium z-10 px-2'>Lab - Digital Data</p>
+              <p className='font-medium z-10 text-4xl text-center px-2'>
+                Lab - Digital Data
+              </p>
             </TextCardBorder>
           </div>
-          <div id='numbering-systems' className='grid grid-cols-2'>
+          <div id='numbering-systems' className='grid grid-cols-2 pb-8'>
             <p className='px-8 h-64 shadow group'>
               <img className='w-full' src='/unit4-binary.png' alt='' />
               <a
@@ -69,12 +71,12 @@ const four = () => {
               </a>
             </p>
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
-              <p className='font-medium z-10 px-2'>
+              <p className='font-medium z-10 text-4xl text-center px-2'>
                 Lab - Numbering Systems (Dec, Bin, Hex, Oct)
               </p>
             </TextCardBorder>
           </div>
-          <div id='binary-addition' className='grid grid-cols-2'>
+          <div id='binary-addition' className='grid grid-cols-2 pb-8'>
             <p className='px-8 h-64 shadow group'>
               <img className='w-full' src='/unit4-binary-addition.png' alt='' />
               <a
@@ -86,10 +88,12 @@ const four = () => {
               </a>
             </p>
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
-              <p className='font-medium z-10 px-2'>Lab - Binary Addition</p>
+              <p className='font-medium z-10 text-4xl text-center px-2'>
+                Lab - Binary Addition
+              </p>
             </TextCardBorder>
           </div>
-          <div id='ascii-code' className='grid grid-cols-2'>
+          <div id='ascii-code' className='grid grid-cols-2 pb-8'>
             <p className='px-8 h-64 shadow group'>
               <img className='w-full' src='/unit4-ascii-code.png' alt='' />
               <a
@@ -101,10 +105,12 @@ const four = () => {
               </a>
             </p>
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
-              <p className='font-medium z-10 px-2'>Lab - ASCII Code</p>
+              <p className='font-medium z-10 text-4xl text-center px-2'>
+                Lab - ASCII Code
+              </p>
             </TextCardBorder>
           </div>
-          <div id='binary-dec-hex-octal' className='grid grid-cols-2'>
+          <div id='binary-dec-hex-octal' className='grid grid-cols-2 pb-8'>
             <p className='px-8 h-64 shadow group'>
               <img className='w-full' src='/unit4-quiz.png' alt='' />
               <a
@@ -116,11 +122,27 @@ const four = () => {
               </a>
             </p>
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
-              <p className='font-medium z-10 px-2'>
+              <p className='font-medium z-10 text-4xl text-center px-2'>
                 Quiz - #3 - Binary/Dec/Hex/Octal
               </p>
             </TextCardBorder>
           </div>
+        </section>
+        <section className='relative px-16 overflow-x-hidden'>
+          <motion.div
+            initial={{ width: 0 }}
+            whileInView={{ width: "100%" }}
+            transition={{ duration: 1, ease: "easeOut" }}
+            className='h-1 bg-white mb-6'
+          />
+          <h2 className='text-center text-5xl'>Unit Reflection</h2>
+          <p className='text-lg mt-6'>
+            I think that this unit was pretty fun. Although it is a bit tedious
+            to do, understanding how computers process information and how to
+            convert our information back and forth between ascii code or binary
+            or any of the other numbering systems was pretty fun and interesting
+            to learn about. I think that this was a pretty fun unit.
+          </p>
         </section>
       </div>
     </>

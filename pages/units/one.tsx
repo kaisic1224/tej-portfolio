@@ -9,8 +9,8 @@ const one = () => {
       <Head>
         <title>Unit One | Vincent Fong</title>
       </Head>
-      <div className='min-h-screen bg-black text-cream pl-[50px]'>
-        <section className='px-8'>
+      <div className='min-h-screen bg-black text-cream pl-[50px] pb-8'>
+        <section className='px-8 overflow-x-hidden'>
           <h1 className='text-center font-bold text-8xl uppercase flex gap-2'>
             <motion.span
               className='inline-block bg-gradient-to-t from-purple-black to-purple-secondary bg-clip-text text-transparent'
@@ -33,7 +33,13 @@ const one = () => {
             id='discovering-your-computer'
             className='grid grid-cols-2 pb-8 mt-12 gap-8 px-8'
           >
-            <p className='mx-auto h-64 w-fit shadow group relative'>
+            <motion.p
+              initial={{ x: "-100%" }}
+              whileInView={{ x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              className='mx-auto h-64 w-fit shadow group relative'
+            >
               <a
                 className='lab-link'
                 target='_blank'
@@ -42,9 +48,17 @@ const one = () => {
                 Open in tab
               </a>
               <img className='w-full' src='/unit1-discover-computer.png' />
-            </p>
+            </motion.p>
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
-              <p className='lab-text'>Discovering Your Computer</p>
+              <motion.p
+                initial={{ x: "100%" }}
+                whileInView={{ x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6 }}
+                className='lab-text text-center text-4xl'
+              >
+                Discovering Your Computer
+              </motion.p>
             </TextCardBorder>
           </div>
           <div
@@ -52,7 +66,13 @@ const one = () => {
             className='grid grid-cols-2 pb-8 mt-12 gap-8 px-8'
           >
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
-              <p className='lab-text'>
+              <motion.p
+                initial={{ x: "-100%" }}
+                whileInView={{ x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6 }}
+                className='lab-text text-center text-4xl'
+              >
                 Hardware Key Terms
                 <a
                   className='font-bold text-xl hover:underline'
@@ -61,21 +81,27 @@ const one = () => {
                 >
                   Link
                 </a>
-              </p>
+              </motion.p>
             </TextCardBorder>
-            <p className='px-8 h-64'>
+            <motion.p
+              initial={{ x: "100%" }}
+              whileInView={{ x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              className='px-8 h-64'
+            >
               <iframe
                 className='w-full h-full'
                 src='https://docs.google.com/spreadsheets/d/e/2PACX-1vTliR7NUoiDUB-sprXD7LBicr2sPas0lmDC17bWurBIOdvtQkzg-ADCEbwvt3EA1jnKd1KuYsxW_AOy/pubhtml?gid=1981747926&amp;single=true&amp;widget=true&amp;headers=false'
               ></iframe>
-            </p>
+            </motion.p>
           </div>
           <div
             id='parts-of-a-computer'
             className='grid place-items-center pb-8 mt-12 gap-8 px-8'
           >
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
-              <p className='lab-text h-64 w-[50vw]'>
+              <p className='lab-text text-center text-4xl h-64 w-[50vw]'>
                 Lab - Parts of a Computer
                 <a
                   className='text-xl font-bold hover:underline'
@@ -92,9 +118,23 @@ const one = () => {
             className='grid grid-cols-2 pb-8 mt-12 gap-8 px-8'
           >
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
-              <p className='lab-text'>Assignment - Future of Tech</p>
+              <motion.p
+                initial={{ x: "-100%" }}
+                whileInView={{ x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6 }}
+                className='lab-text text-center text-4xl'
+              >
+                Assignment - Future of Tech
+              </motion.p>
             </TextCardBorder>
-            <p className='px-8 h-64 shadow group'>
+            <motion.p
+              initial={{ x: "100%" }}
+              whileInView={{ x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              className='px-8 h-64 shadow group'
+            >
               <a
                 className='lab-link'
                 target='_blank'
@@ -103,10 +143,16 @@ const one = () => {
                 Open in tab
               </a>
               <img src='/unit1-future.png' className='mx-auto w-full' alt='' />
-            </p>
+            </motion.p>
           </div>
           <div id='the-cpu' className='grid grid-cols-2 pb-8 mt-12 gap-8 px-8'>
-            <p className='px-8 h-64 shadow group'>
+            <motion.p
+              initial={{ x: "-100%" }}
+              whileInView={{ x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              className='px-8 h-64 shadow group'
+            >
               <img className='w-full mx-auto' src='/unit1-cpu.png' alt='' />
               <a
                 className='lab-link'
@@ -115,9 +161,17 @@ const one = () => {
               >
                 Open in tab
               </a>
-            </p>
+            </motion.p>
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
-              <p className='lab-text'>Lab - The CPU</p>
+              <motion.p
+                initial={{ x: "100%" }}
+                whileInView={{ x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6 }}
+                className='lab-text text-center text-4xl'
+              >
+                Lab - The CPU
+              </motion.p>
             </TextCardBorder>
           </div>
           <div
@@ -125,9 +179,23 @@ const one = () => {
             className='grid grid-cols-2 pb-8 mt-12 gap-8 px-8'
           >
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
-              <p className='lab-text'>Lab - The Motherboard</p>
+              <motion.p
+                initial={{ x: "-100%" }}
+                whileInView={{ x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6 }}
+                className='lab-text text-center text-4xl'
+              >
+                Lab - The Motherboard
+              </motion.p>
             </TextCardBorder>
-            <p className='px-8 h-64 shadow group'>
+            <motion.p
+              initial={{ x: "100%" }}
+              whileInView={{ x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              className='px-8 h-64 shadow group'
+            >
               <img src='/unit1-motherboard.png' className='w-full mx-auto' />
               <a
                 className='lab-link'
@@ -136,20 +204,32 @@ const one = () => {
               >
                 Open in tab
               </a>
-            </p>
+            </motion.p>
           </div>
           <div
             id='custom-pc-purchase'
             className='grid grid-cols-2 pb-8 mt-12 gap-8 px-8'
           >
-            <p className='px-8 h-64'>
+            <motion.p
+              initial={{ x: "-100%" }}
+              whileInView={{ x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              className='px-8 h-64'
+            >
               <iframe
                 className='w-full h-full'
                 src='https://docs.google.com/spreadsheets/d/e/2PACX-1vTIe7qkxuIDOhLSa_dwVRtipy9-zfhoIEKzsyUk3TOULnO-CFZiagn7JqaqM1PhkTKYwTOZYVOoiNEg/pubhtml?gid=43276332&amp;single=true&amp;widget=true&amp;headers=false'
               ></iframe>
-            </p>
+            </motion.p>
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
-              <p className='lab-text'>
+              <motion.p
+                initial={{ x: "100%" }}
+                whileInView={{ x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6 }}
+                className='lab-text text-center text-4xl'
+              >
                 Assignment - Custom PC Purchase
                 <a
                   className='font-bold text-xl hover:underline'
@@ -165,9 +245,25 @@ const one = () => {
                 >
                   Spreadsheet Planning
                 </a>
-              </p>
+              </motion.p>
             </TextCardBorder>
           </div>
+        </section>
+        <section className='relative px-16 overflow-x-hidden'>
+          <motion.div
+            initial={{ width: 0 }}
+            whileInView={{ width: "100%" }}
+            transition={{ duration: 1, ease: "easeOut" }}
+            className='h-1 bg-white mb-6'
+          />
+          <h2 className='text-center text-5xl'>Unit Reflection</h2>
+          <p className='text-lg mt-6'>
+            I think that this unit was alright, it wasn't the most interesting
+            but it did go over a lot of basics and fundamentals. I think the
+            custom PC assignment and future of tech were the most interesting
+            and fun assignments of this unit. I really liked listening to other
+            people's presentations and I thought it was pretty interesting.
+          </p>
         </section>
       </div>
     </>
