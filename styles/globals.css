@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes ping {
+  0% {
+    opacity: 1;
+  }
+  75%,
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+.animate-ping-once {
+  animation: ping 2s cubic-bezier(0, 0, 0.2, 1) 1;
+  animation-delay: 1s;
+}
+
+@layer components {
+  .shadow {
+    @apply overflow-hidden relative after:absolute after:bg-gradient-to-t after:z-50 after:w-full after:h-3/4
+             after:from-white via-white after:to-white/10 after:bottom-0 after:left-0;
+  }
+
+  .lab-text {
+    @apply font-medium z-10 px-8 flex flex-col justify-between;
+  }
+}
