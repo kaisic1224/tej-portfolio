@@ -38,9 +38,11 @@ const three = () => {
               >
                 Link
               </a>
-              <video preload='load' controls>
-                <source src='/Unit3-7-segment-vid.mkv' type='video/mp4' />
-              </video>
+              <iframe
+                className='w-full aspect-video'
+                src='https://drive.google.com/file/d/17zIzxIx3TEWUh4bSIAAr7pG1zqQNjyGx/preview'
+                allow='autoplay'
+              ></iframe>
             </p>
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
               <p className='font-medium z-10 px-2'>
@@ -56,9 +58,11 @@ const three = () => {
               >
                 Link
               </a>
-              <video preload='load' controls>
-                <source src='/unit3-7segdecoder.mkv' type='video/mp4' />
-              </video>
+              <iframe
+                className='w-full aspect-video'
+                src='https://drive.google.com/file/d/18X2u1zD3NcWGOav17wM9gzKFggG2K_fS/preview'
+                allow='autoplay'
+              ></iframe>
             </p>
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
               <p className='font-medium z-10 px-2'>
@@ -78,9 +82,11 @@ const three = () => {
                 target={"_blank"}
                 href='https://www.tinkercad.com/things/9C92m6SoLQF-brave-migelo-kasi/editel?sharecode=Gp026sGj8-c-LTSY5PpaaN_IeTDP3pFZp7tSgoDrFrQ'
               ></a>
-              <video preload='load' controls>
-                <source src='/unit3-half-adder.mkv' type='video/mp4' />
-              </video>
+              <iframe
+                className='w-full aspect-video'
+                src='https://drive.google.com/file/d/16c3N-wyFG7RIgVN7GDCpOjr66xv9bVtB/preview'
+                allow='autoplay'
+              ></iframe>
             </p>
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
               <p className='font-medium z-10 px-2'>

@@ -30,7 +30,11 @@ const five = () => {
           </h1>
           <div id='arduino-blink-with-nano' className='grid grid-cols-2'>
             <p>
-              <video controls src='/unit5-l2.mp4'></video>
+              <iframe
+                className='w-full aspect-video'
+                src='https://drive.google.com/file/d/1qSKUKDFD6ZhkSG_50tCBbAY0_KmTOBll/preview'
+                allow='autoplay'
+              ></iframe>
             </p>
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
               <p className='font-medium z-10 px-2'>
@@ -46,7 +50,11 @@ const five = () => {
               >
                 Link
               </a>
-              <video controls src='/unit5-l3.mp4'></video>
+              <iframe
+                className='w-full aspect-video'
+                src='https://drive.google.com/file/d/1GK5GqBEXgAVedG0bxWpk18ZpEP6mgR5a/preview'
+                allow='autoplay'
+              ></iframe>
             </p>
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
               <p className='font-medium z-10 px-2'>
@@ -56,7 +64,11 @@ const five = () => {
           </div>
           <div id='transistors-motors' className='grid grid-cols-2'>
             <p>
-              <video controls src='/unit5-l4.mp4'></video>
+              <iframe
+                className='w-full aspect-video'
+                src='https://drive.google.com/file/d/11rYInZLu9vkcKqpcoOf7eHbF0VbiAnDd/preview'
+                allow='autoplay'
+              ></iframe>
             </p>
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
               <p className='font-medium z-10 px-2'>
@@ -66,7 +78,11 @@ const five = () => {
           </div>
           <div id='keyboard-led-input' className='grid grid-cols-2'>
             <p>
-              <video controls src='/unit5-l5.mp4'></video>
+              <iframe
+                className='w-full aspect-video'
+                src='https://drive.google.com/file/d/1EeLJ2vpILQm67T2dFD-vs_RwfH4MhDJu/preview'
+                allow='autoplay'
+              ></iframe>
             </p>
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
               <p className='font-medium z-10 px-2'>
@@ -76,7 +92,11 @@ const five = () => {
           </div>
           <div id='motor-control-with-npn' className='grid grid-cols-2'>
             <p>
-              <video controls src='/unit5-l6.mp4'></video>
+              <iframe
+                className='w-full aspect-video'
+                src='https://drive.google.com/file/d/1ruMqA-MmnSGs64yCag9HALNomGtkD8i4/preview'
+                allow='autoplay'
+              ></iframe>
             </p>
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
               <p className='font-medium z-10 px-2'>
@@ -86,7 +106,11 @@ const five = () => {
           </div>
           <div id='h-bridge-with-switch' className='grid grid-cols-2'>
             <p>
-              <video controls src='/unit5-l7.mp4'></video>
+              <iframe
+                className='w-full aspect-video'
+                src='https://drive.google.com/file/d/1sU416OMitnuMskBUPQH47j9cwmqhQyMl/preview'
+                allow='autoplay'
+              ></iframe>
             </p>
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
               <p className='font-medium z-10 px-2'>
@@ -96,9 +120,11 @@ const five = () => {
           </div>
           <div id='h-bridge-with-arduino' className='grid grid-cols-2'>
             <p>
-              <video controls>
-                <source src='/unit5-l8.mkv' type='video/mp4' />
-              </video>
+              <iframe
+                className='w-full aspect-video'
+                src='https://drive.google.com/file/d/1HewkzBOkANuii9sQgFCB8ap_lVXrJrNs/preview'
+                allow='autoplay'
+              ></iframe>
             </p>
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
               <p className='font-medium z-10 px-2'>
@@ -108,7 +134,11 @@ const five = () => {
           </div>
           <div id='l293d-with-switch' className='grid grid-cols-2'>
             <p>
-              <video controls src='/unit5-l9.mp4'></video>
+              <iframe
+                className='w-full aspect-video'
+                src='https://drive.google.com/file/d/1In9RMck_lccBQapHgBahwGyeqmV_uFM8/preview'
+                allow='autoplay'
+              ></iframe>
             </p>
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
               <p className='font-medium z-10 px-2'>
@@ -118,7 +148,11 @@ const five = () => {
           </div>
           <div id='l293d-with-arduino' className='grid grid-cols-2'>
             <p>
-              <video controls src='/unit5-l10.mp4'></video>
+              <iframe
+                className='w-full aspect-video'
+                src='https://drive.google.com/file/d/1m83040IAq2GF8Gv7lcu-boNFGpPWGcCA/preview'
+                allow='autoplay'
+              ></iframe>{" "}
             </p>
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
               <p className='font-medium z-10 px-2'>

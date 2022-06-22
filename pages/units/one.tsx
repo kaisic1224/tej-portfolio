@@ -31,7 +31,7 @@ const one = () => {
           </h1>
           <div
             id='discovering-your-computer'
-            className='grid grid-cols-2 pb-8 mt-12 gap-4 px-8'
+            className='grid grid-cols-2 pb-8 mt-12 gap-8 px-8'
           >
             <p className='px-8 h-64 shadow'>
               <img
@@ -54,7 +54,7 @@ const one = () => {
           </div>
           <div
             id='hardware-key-terms'
-            className='grid grid-cols-2 pb-8 mt-12 gap-4 px-8'
+            className='grid grid-cols-2 pb-8 mt-12 gap-8 px-8'
           >
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
               <p className='lab-text'>
@@ -77,55 +77,61 @@ const one = () => {
           </div>
           <div
             id='parts-of-a-computer'
-            className='grid grid-cols-2 pb-8 mt-12 gap-4 px-8'
+            className='grid place-items-center pb-8 mt-12 gap-8 px-8'
           >
-            <p className='px-8 h-64'>
-              <a
-                className='text-xl font-bold'
-                target='_blank'
-                href='https://docs.google.com/document/d/13GRUiuP2SUbq3dRWnHGHJLeqeT4Fp3E-OxrSZQkZHFw/edit?usp=drive_web&authuser=1'
-              >
-                Link
-              </a>
-            </p>
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
-              <p className='lab-text'>Lab - Parts of a Computer</p>
+              Lab - Parts of a Computer
+              <p className='lab-text h-64'>
+                <a
+                  className='text-xl font-bold'
+                  target='_blank'
+                  href='https://docs.google.com/document/d/13GRUiuP2SUbq3dRWnHGHJLeqeT4Fp3E-OxrSZQkZHFw/edit?usp=drive_web&authuser=1'
+                >
+                  Link
+                </a>
+              </p>
             </TextCardBorder>
           </div>
           <div
             id='future-of-tech'
-            className='grid grid-cols-2 pb-8 mt-12 gap-4 px-8'
+            className='grid grid-cols-2 pb-8 mt-12 gap-8 px-8'
           >
-            <p className='px-8 h-64'>
-              <a
-                className='text-xl font-bold'
-                target='_blank'
-                href='https://docs.google.com/presentation/d/1vmncWT3zEjRrOYvmsxzIv8JXHkT7D86Ag6OhuhCIy30/edit?usp=drive_web&authuser=1'
-              >
-                Link
-              </a>
-            </p>
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
-              <p className='lab-text'>Assignment - Future of Tech</p>
+              <p className='lab-text'>
+                Assignment - Future of Tech
+                <a
+                  className='text-xl font-bold'
+                  target='_blank'
+                  href='https://docs.google.com/presentation/d/1vmncWT3zEjRrOYvmsxzIv8JXHkT7D86Ag6OhuhCIy30/edit?usp=drive_web&authuser=1'
+                >
+                  Link
+                </a>
+              </p>
             </TextCardBorder>
+            <p className='px-8 h-64 shadow'>
+              <img src='/unit1-future.png' className='mx-auto w-full' alt='' />
+            </p>
           </div>
-          <div id='the-cpu' className='grid grid-cols-2 pb-8 mt-12 gap-4 px-8'>
-            <p className='px-8 h-64'>
-              <a
-                className='text-xl font-bold'
-                target='_blank'
-                href='https://docs.google.com/document/d/1k1Dm4_Qqq80XViqPy8C_pYORspCr9tXOEeEuY5Ukakg/edit?usp=drive_web&authuser=1'
-              >
-                Link
-              </a>
+          <div id='the-cpu' className='grid grid-cols-2 pb-8 mt-12 gap-8 px-8'>
+            <p className='px-8 h-64 shadow'>
+              <img className='w-full mx-auto' src='/unit1-cpu.png' alt='' />
             </p>
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
-              <p className='lab-text'>Lab - The CPU</p>
+              <p className='lab-text'>
+                Lab - The CPU
+                <a
+                  className='text-xl font-bold'
+                  target='_blank'
+                  href='https://docs.google.com/document/d/1k1Dm4_Qqq80XViqPy8C_pYORspCr9tXOEeEuY5Ukakg/edit?usp=drive_web&authuser=1'
+                >
+                  Link
+                </a>
+              </p>
             </TextCardBorder>
           </div>
           <div
             id='the-motherboard'
-            className='grid grid-cols-2 pb-8 mt-12 gap-4 px-8'
+            className='grid grid-cols-2 pb-8 mt-12 gap-8 px-8'
           >
             <p className='px-8 h-64'>
               <a
@@ -142,7 +148,7 @@ const one = () => {
           </div>
           <div
             id='custom-pc-purchase'
-            className='grid grid-cols-2 pb-8 mt-12 gap-4 px-8'
+            className='grid grid-cols-2 pb-8 mt-12 gap-8 px-8'
           >
             <p className='px-8 h-64'>
               <a

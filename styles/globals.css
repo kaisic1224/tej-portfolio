@@ -24,6 +24,6 @@
   }
 
   .lab-text {
-    @apply font-medium z-10 px-8 flex flex-col justify-between;
+    @apply font-medium z-10 px-8 flex flex-col justify-between text-lg;
   }
 }
