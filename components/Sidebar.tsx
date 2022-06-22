@@ -161,9 +161,7 @@ const Sidebar = () => {
           }
         }}
         className={`fixed inset-0 z-[900] transition-colors duration-300 ${
-          open
-            ? `bg-black/40 backdrop-blur-sm`
-            : "bg-transparent pointer-events-none"
+          open ? `bg-black/40` : "bg-transparent pointer-events-none"
         }`}
       >
         <AnimatePresence>
@@ -173,7 +171,7 @@ const Sidebar = () => {
               animate={{ x: 0 }}
               exit={{ x: "-100%" }}
               transition={{ ease: "easeOut", duration: 0.3 }}
-              className='bg-purple-black/60 min-h-screen z-[9999] max-w-xs shadow-md text-cream overflow-y-auto'
+              className='bg-purple-black/60 backdrop-blur-sm min-h-screen z-[9999] max-w-xs shadow-md text-cream overflow-y-auto'
             >
               <div className='flex pl-4 pt-4 gap-2 items-center'>
                 <FaBars

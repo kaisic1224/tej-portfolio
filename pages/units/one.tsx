@@ -81,7 +81,7 @@ const one = () => {
           >
             <TextCardBorder bg='bg-purple-primary' bgBorder='border-cream'>
               Lab - Parts of a Computer
-              <p className='lab-text h-64'>
+              <p className='lab-text h-64 w-[50vw]'>
                 <a
                   className='text-xl font-bold'
                   target='_blank'
