@@ -44,7 +44,7 @@ const six = () => {
             </TextCardBorder>
           </div>
         </section>
-        <section className='relative px-16 overflow-x-hidden'>
+        <section className='relative px-16 mt-28 overflow-x-hidden'>
           <motion.div
             initial={{ width: 0 }}
             whileInView={{ width: "100%" }}
@@ -54,7 +54,8 @@ const six = () => {
           <h2 className='text-center text-5xl'>Unit Reflection</h2>
           <p className='text-lg mt-6'>
             I think that this unit was okay. There was a lot of helpful
-            information,
+            information, and was overall pretty interesting but wasn't the most
+            fun unit or acitivity we have ever done.
           </p>
         </section>
       </div>

@@ -2,6 +2,7 @@ import { motion, useTransform, useViewportScroll } from "framer-motion";
 import Head from "next/head";
 import { useState } from "react";
 import { useRef } from "react";
+import Carousel from "../components/Carousel";
 import IntroductionWording from "../components/IntroductionWording";
 import Rolldown from "../components/Rolldown";
 import RotateWord from "../components/RotateWord";
@@ -65,6 +66,14 @@ const paras = {
   }
 };
 
+const imgs = [
+  "/lego-batman.png",
+  "/lego-movie.png",
+  "/minecraft.png",
+  "/pokemon-diamond-pearl.png",
+  "/pokemon-white2.png"
+];
+
 const about = () => {
   const { scrollYProgress } = useViewportScroll();
   const [titles, setTitles] = useState<title[]>(propTitles);
@@ -73,6 +82,7 @@ const about = () => {
   const [introWordRef, introStart, introEnd] = useScrollportView(startingRef);
   const ref2 = useRef<HTMLElement>(null);
   const [wordRef2, rotateStart, rotateEnd] = useScrollportView(ref2);
+
   return (
     <>
       <Head>
@@ -95,7 +105,7 @@ const about = () => {
             end={introEnd as number}
           />
         </section>
-        <section ref={ref2} className='px-8 mt-[50vw] min-h-[200vh]'>
+        <section className='px-8 mt-[50vw] min-h-[100vh]'>
           <div className='text-6xl font-bold h-full overflow-hidden lowercase'>
             <motion.h2
               variants={vars}
@@ -134,11 +144,26 @@ const about = () => {
             initial='hidden'
             whileInView='show'
             viewport={{ once: true }}
-            className='grid grid-cols-2'
+            className='grid grid-cols-2 justify-items-center items-center'
           >
-            <motion.img variants={paras} src='' alt='ggottem' />
-            <motion.p variants={paras}>
-              Hi, I'm Vincent! I love to code and create websites. I also love{" "}
+            <a className='relative group' href='https://github.com/kaisic1224'>
+              <motion.img
+                variants={paras}
+                src='/github-icon.png'
+                alt='github'
+              />
+              <span
+                className='absolute scale-0 group-hover:scale-100 transition-transform whitespace-nowrap
+              duration-300 -bottom-4 left-1/2 -translate-x-1/2'
+              >
+                Check out my other projects!
+              </span>
+            </a>
+            <motion.p variants={paras} className='text-xl'>
+              Hi, I'm Vincent! I'm currently an 11th grade student at UHS, and I
+              love coding and making websites. I'm a huge fan of anime and
+              animation, with some of my favourites being Attack on Titan and
+              Hunter x Hunter.
             </motion.p>
           </motion.div>
           <motion.div
@@ -148,6 +173,28 @@ const about = () => {
             transition={{ duration: 0.6, ease: "easeOut", delay: 1.5 }}
           >
             <RotateWord titles={titles} />
+          </motion.div>
+        </section>
+        <section ref={ref2} className='px-8 mt-[25vw] min-h-[100vh]'>
+          <motion.div
+            variants={{
+              show: {
+                transition: { staggerChildren: 0.25, delayChildren: 1 }
+              }
+            }}
+            initial='hidden'
+            whileInView='show'
+            viewport={{ once: true }}
+            className='grid grid-cols-2 gap-4 items-center justify-items-center'
+          >
+            <motion.p variants={paras} className='text-xl'>
+              I would say I am a pretty big fan of games and movies. I really
+              like horror movies but I also can apreciate a good comedy or
+              action movie from time to time. I would say some of my favourite
+              movies are The Lego Batman, or any Ed and Loraine warren movies
+              tend to be pretty good and fun to watch with friends.
+            </motion.p>
+            <Carousel imgs={imgs} />
           </motion.div>
         </section>
       </div>
